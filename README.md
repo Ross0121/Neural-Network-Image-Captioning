@@ -1,13 +1,6 @@
 # Images Captioning Using Neural Network -- Keras
 
-
-
-### Challenges!
-##### Baseline:
-* KNN model for image captioning. Get the features of images using SURF or GIST algorithm, and feed into knn model.
-* For prediction, find the closest image based on features.
-* use BLEU score to choose one best caption from the captions of closest images.
-##### Final Model:
+##### Model:
 * Use VGG16 or VGG19 CNN to extraction features from images.
 * Use LSTM model to generate the captions
 
@@ -15,9 +8,6 @@
 * [Flickr8K](http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html)
 * [Flickr30k](https://drive.google.com/file/d/0B5o40yxdA9PqTnJuWGVkcFlqcG8/view)
 * [captions](https://drive.google.com/file/d/0B2vTU3h54lTydXFjSVM5T2t4WmM/view)
-
-## run baseline
-* run image_knn.py
 
 ## training LSTM model
 * run image_rnn.py
